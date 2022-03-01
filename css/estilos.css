@@ -1,0 +1,56 @@
+body {
+  overflow-x: hidden;
+  background-image: url("http://www.ensaltillo.com/206/119/235/2009/11/20/fondo_r1_c1.jpg");
+  background-size: 100em;
+}
+.destacado {
+  font-family: 'Redressed', cursive;
+  font-size: 65px;
+  color: rgb(107, 8, 107); 
+}
+.col-md-10 {
+  display: flex;
+  justify-content: space-evenly
+}
+.nav-item {
+  list-style :none;
+  border-radius:12px ;
+  background-color: aqua;
+  width: 150px;
+  height: 50px;
+  transition: all 2s;
+  }
+.nav-item:hover{
+  height: 42px;
+}
+.nav-item a:hover {
+  transition: all 2s;
+  height: 30px;
+}
+.boxinfo {
+  color: blue;
+  justify-items: start;
+  align-items: center;
+}
+.info {
+color:rgb(23, 154, 241);
+text-align: justify;
+}
+.seguinos {
+  margin-left: 25px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: blue;
+  margin-top: 25px;
+}
+.redes {
+  display:flex;
+  margin-left: 25px;
+  margin-bottom: 5px;
+} 
+.copy {
+    font-size:20px ;
+    margin-left: 15px;
+    padding-top: 10px;
+    color: blue;
+}
